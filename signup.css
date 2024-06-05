@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+a:hover {
+    cursor: pointer;
+}
+
+#background {
+    height: 207px;
+    border-bottom: 1px solid #d7d7d8;
+}
+
+#container_intern_body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
+#intern_body {
+    width: 1200px;
+    height: 100%;
+}
+
+#accesso {
+    display: flex;
+    flex-direction: column;
+    height: 207px;
+}
+
+#logo {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    padding: 0.2%;
+}
+
+#logo img{
+    height: 25px;
+}
+
+#accesso section {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#accesso h1 {
+    margin: 0;
+    width: 38%;
+    height: 30%;
+    font-size: 180%;
+    text-align: left;
+}
+
+#accesso section div {
+    border: 3px solid black;
+    width: 38%;
+    height: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#accesso section div:hover {
+    border-color: rgb(103, 104, 111);
+    background-color: rgb(103, 104, 111);
+}
+
+#accesso section div:hover a {
+    color: white;
+}
+
+#accesso section div:hover {
+    cursor: pointer;
+}
+
+#accesso a {
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#registrazione {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 38%;
+}
+
+form h1 {
+    font-size: 180%;
+    margin: 7% 0 4% 0;
+}
+
+form section {
+    width: 94%;
+    margin-bottom: 5%;
+}
+
+form .campi {
+    display: flex;
+    align-items: center;
+}
+
+form .campi span {
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 0.8% 1.4%;
+    font-size: 75%;
+}
+
+form .campi em {
+    font-style: normal;
+    color: grey;
+}
+
+form .text_input {
+    padding: 3%;
+    font-size: 105%;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+form .text_input:hover {
+    padding-left: 2.6%;
+    height: 16px;
+    border: 3px solid black;
+}
+
+form .text_input:focus {
+    padding-left: 2.6%;
+    height: 16px;
+    border: 3px solid black;
+}
+
+form input:focus {
+    outline: none;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 71%;
+    font-size: 80%;
+}
+
+#categoria_interesse {
+    color: rgb(26, 26, 26);
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid  #d7d7d8;
+}
+
+#categoria_interesse h3 {
+    font-weight: normal;
+}
+
+#categoria_interesse h3 em {
+    font-style: normal;
+    font-size: 70%;
+    color: grey;
+}
+
+#categoria_interesse p {
+    color: grey;
+    font-size: 90%;
+}
+
+.categoria {
+    font-size: 110%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3.5%;
+}
+
+input[type='radio'] {
+    height: 23px;
+    width: 23px;
+    margin-right: 5%;
+}
+
+#newsletter {
+    color: rgb(26, 26, 26);
+    background-color: rgb(239, 239, 240);
+    margin-top: 3%;
+    padding: 3% 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 110%;
+}
+
+#newsletter div {
+    width: 88%;
+}
+
+#newsletter div em {
+    font-style: normal;
+    color: grey;
+    font-size: 75%;
+}
+
+input[type='checkbox'] {
+    height: 23px;
+    width: 23px;
+    margin: 2%;
+}
+
+input[type='submit'] {
+    height: 6%;
+    width: 100%;
+    font-size: 110%;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(198, 198, 198);
+    border: 0;
+}
+
+/*input[type='submit']:hover {
+    cursor: pointer;
+    background-color: rgb(103, 104, 111);
+}*/
+
+#end_page {
+    width: 38%;
+    height: 50%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#policy a {
+    color: rgb(99, 40, 224);
+}
+
+#informazioni {
+    margin-top: 4%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: grey;
+    font-size: 85%;
+}
+
+#link_utili {
+    margin: 4% 0;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 90%;
+}
+
+#link_utili a:hover {
+    border-bottom: 1px solid black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a img{
+    width: 40px;
+    margin-bottom: 70px;
+}
